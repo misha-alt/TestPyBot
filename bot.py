@@ -19,7 +19,7 @@ def commands(message):
 
             if post_text[0] != None:
                 bot.send_message(message.chat.id, post_text[0])
-                time.sleep(30)
+                time.sleep(1800)
     else:
         bot.send_message(message.from_user.id, "Я тебя не понимаю. Напиши Старт")
 
